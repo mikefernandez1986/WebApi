@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BSLeadGenerationAdminAPI", "BSLeadGenerationAPI\BSLeadGenerationAdminAPI.csproj", "{CBA3293E-92F9-41CD-9ADB-0ECB11BD2421}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeadGenAdminEntities", "LeadGenEntities\LeadGenAdminEntities.csproj", "{097B76E1-AFF6-4511-AE86-A1CE9D8A1508}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeadGenerationAdminBO", "LeadGenerationBO\LeadGenerationAdminBO.csproj", "{AB1AE30D-5C8F-4431-9F17-80E8F07FB2E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeadGenerationAdminDAO", "LeadGenerationDAO\LeadGenerationAdminDAO.csproj", "{2D2F3866-6200-4331-8BA9-FBBE47A76450}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeadGenerationExceptionHandler", "LeadGenerationExceptionHandler\LeadGenerationExceptionHandler.csproj", "{3CF6D27F-F8FB-487C-BE50-B9AA551CEA3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeadGenerationAdmin.BO.UnitTest", "LeadGenerationAdmin.BO.UnitTest\LeadGenerationAdmin.BO.UnitTest.csproj", "{C6CC752F-BAF3-4120-BC70-B5B1CF8D38AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBA3293E-92F9-41CD-9ADB-0ECB11BD2421}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBA3293E-92F9-41CD-9ADB-0ECB11BD2421}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBA3293E-92F9-41CD-9ADB-0ECB11BD2421}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBA3293E-92F9-41CD-9ADB-0ECB11BD2421}.Release|Any CPU.Build.0 = Release|Any CPU
+		{097B76E1-AFF6-4511-AE86-A1CE9D8A1508}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{097B76E1-AFF6-4511-AE86-A1CE9D8A1508}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{097B76E1-AFF6-4511-AE86-A1CE9D8A1508}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{097B76E1-AFF6-4511-AE86-A1CE9D8A1508}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB1AE30D-5C8F-4431-9F17-80E8F07FB2E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB1AE30D-5C8F-4431-9F17-80E8F07FB2E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB1AE30D-5C8F-4431-9F17-80E8F07FB2E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB1AE30D-5C8F-4431-9F17-80E8F07FB2E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D2F3866-6200-4331-8BA9-FBBE47A76450}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D2F3866-6200-4331-8BA9-FBBE47A76450}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D2F3866-6200-4331-8BA9-FBBE47A76450}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D2F3866-6200-4331-8BA9-FBBE47A76450}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CF6D27F-F8FB-487C-BE50-B9AA551CEA3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CF6D27F-F8FB-487C-BE50-B9AA551CEA3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CF6D27F-F8FB-487C-BE50-B9AA551CEA3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CF6D27F-F8FB-487C-BE50-B9AA551CEA3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6CC752F-BAF3-4120-BC70-B5B1CF8D38AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6CC752F-BAF3-4120-BC70-B5B1CF8D38AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6CC752F-BAF3-4120-BC70-B5B1CF8D38AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6CC752F-BAF3-4120-BC70-B5B1CF8D38AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
